@@ -14,6 +14,11 @@ const data = [
         name: "nokia",
         price: 4000,
 
+    }, {
+        id: 3,
+        name: "vivo",
+        price: 12000,
+
     }
 ];
 
