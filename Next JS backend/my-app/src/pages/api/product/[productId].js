@@ -2,7 +2,7 @@ import { getById } from "@/services/service";
 
 export default function handler(req, res) {
     if (req.method === "GET") {
-      const {productId} = req.query
+      const {productId} = req.query.productId;
       const data = getById(productId)
     return res.status(200).json(data);
   }
