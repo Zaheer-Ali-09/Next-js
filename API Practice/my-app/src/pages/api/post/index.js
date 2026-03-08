@@ -1,4 +1,4 @@
-import { getAllPosts } from "@/services/postsServices";
+import { getAllPosts } from "@/services/postServices";
 
 
 export default function handler(req, res) {
